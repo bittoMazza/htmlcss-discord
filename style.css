@@ -52,9 +52,6 @@ img {
     padding: 30px 0 0 0;
 }
 
-.main-section-container{
-    padding: 100px 0;
-}
 
 #navbar {
     width: 60%;
@@ -130,22 +127,28 @@ li a {
 
 /* STILE MAIN */
 
+.main-section-container{
+    padding: 100px 0;
+}
+
 .main-btn {
     padding: 15px 15px;
     border: none;
     border-radius: 25px;
     font-size: 20px;
-    margin: 10px;
+    margin: 30px 0;
     color: white;
     background-color: #7289da;
 }
 
 .star-div {
-    padding: 50px;
+    width:50%;
     margin: 0 auto;
     background-image: url(./img/stars.svg);
-    background-size: contain;
+    background-size: cover;
+    font-weight: bold;
     font-size: 30px;
+    padding: 15px;
 }
 
 .section-flex {
