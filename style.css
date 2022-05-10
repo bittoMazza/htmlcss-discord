@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif
 }
 
 .header-container {
@@ -34,18 +38,21 @@ img {
 
 /* Stile header */
 
+
 .head-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Inizio Top header */
+
 .top-header {
     background-color: #255ee9;
     padding: 30px 0 0 0;
 }
 
-.section-container {
+.main-section-container{
     padding: 100px 0;
 }
 
@@ -56,31 +63,6 @@ img {
 
 .login-btn-container {
     text-align: right;
-}
-
-.logo-container.login-btn-container {
-    width: 20%;
-    display: inline-block;
-}
-
-
-
-.bottom-header-btn {
-    padding: 15px 15px;
-    border: none;
-    border-radius: 25px;
-    font-size: 20px;
-    margin: 10px;
-}
-
-.alternative-style-btn {
-    padding: 15px 20px;
-    color: white;
-    background-color: #333;
-    border: none;
-    border-radius: 25px;
-    font-size: 20px;
-    margin: 10px;
 }
 
 nav ul li {
@@ -95,6 +77,27 @@ li a {
     color: white;
     font-size: 20px;
 }
+
+/* Fine top header */
+
+.logo-container.login-btn-container {
+    width: 20%;
+    display: inline-block;
+}
+
+.bottom-header-btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.alternative-style-btn {
+    color: white;
+    background-color: #333;
+}
+
 
 .bottom-header {
     background-image: url(./img/jumbo.png);
@@ -122,6 +125,11 @@ li a {
     color: whitesmoke;
 }
 
+
+
+
+/* STILE MAIN */
+
 .main-btn {
     padding: 15px 15px;
     border: none;
@@ -131,10 +139,6 @@ li a {
     color: white;
     background-color: #7289da;
 }
-
-
-/* STILE MAIN */
-
 
 .star-div {
     padding: 50px;
@@ -156,20 +160,37 @@ li a {
     width: 40%;
 }
 
-main section:nth-child(2n) {
-    background-color: grey;
+.section-color-alternative{
+    background-color: #ccc;
 }
 
-#last-main-content {
+.last-main-content {
     text-align: center;
 }
 
-#last-main-content h2 {
+
+/* Stile per le wawe */
+
+.wawe{
+    display: block;
+    opacity: 0.2;
+}
+
+.reverse-wawe{
+    display: inline-block;
+    transform: rotateX(180deg);
+    opacity: 0.2;
+}
+
+/* Fine stile wawe */
+
+
+.last-main-content h2{
     font-size: 50px;
     margin: 40px 0;
 }
 
-#last-main-content p {
+.last-main-content p{
     font-size: 25px;
     line-height: 40px;
 }
@@ -193,7 +214,6 @@ main section:nth-child(2n) {
     width: 10%;
     display: inline-block;
 }
-
 
 footer {
     background-color: rgb(39, 37, 37);
