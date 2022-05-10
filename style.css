@@ -181,7 +181,7 @@ li a {
 
 .reverse-wawe{
     display: inline-block;
-    transform: rotateX(180deg);
+    transform:translate(0,-0.1%) rotatex(180deg);
     opacity: 0.2;
 }
 
