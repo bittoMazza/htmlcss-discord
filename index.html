@@ -12,8 +12,10 @@
     <header>
         <!-- Parte alta dell'header -->
         <section class="top-header">
-            <div class="header-container head-content">              
-                <img class="logo-header" src="./img/logo.svg" alt="Logo">            
+            <div class="header-container head-content">
+                <div class="logo-container">
+                    <img class="logo-header" src="./img/logo.svg" alt="Logo">
+                </div>                                    
                 <nav id="navbar" class="">
                     <ul>
                         <li><a href="#">Scarica</a></li>
@@ -55,7 +57,8 @@
         <section class="section-container">
             <div class="main-container section-flex">
                 <div class="small-content ">
-
+                    <h2>Dove trovarsi è facile</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus at minus, vel fugiat omnis labore libero voluptatem aliquam quia nobis suscipit velit modi quasi possimus, sit ex deleniti sint.</p>
                 </div>
                 <div class="big-content">
                     <img src="./img/item2.svg" alt="seconda img">
@@ -69,13 +72,21 @@
                     <img src="./img/item3.svg" alt="terza img">
                 </div>
                 <div class="small-content ">
-
+                    <h2>Da pochi a un fandom</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolores totam optio voluptates alias, dolor rerum quam quaerat odit enim. Nostrum aut ad blanditiis soluta, incidunt voluptates exercitationem magnam necessitatibus!</p>
                 </div>
             </div>
         </section>
         <!--  Quarta Section  -->
         <section class="section-container">
-            <div class="main-container" id="last-main-content">         
+            <div class="main-container" id="last-main-content">
+                <h2>Tecnologia affidabile per tenersi in contatto</h2>     
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, at? Error maxime expedita ipsam temporibus velit explicabo aperiam atque libero quaerat labore, quae deserunt laborum, molestiae ratione iusto, voluptatem ullam.</p>
+                <img src="./img/item4-big.svg" alt="quarta img">
+                <div class="star-div">
+                    Pronti per una nuova avventura?
+                </div>  
+                <button class="main-btn"><i class="fa-solid fa-arrow-down-long"></i> Scarica per Mac</button>  
             </div>
         </section>
     </main>
@@ -84,23 +95,78 @@
         <section class="top-footer">
             <div class="footer-container section-flex">
                 <div class="f-left-container">
+                    <h3>Il tuo posto per parlare</h3>
+                    <div class="language-container">
+                        <img src="./img/ita.png" alt="immagine bandiere">
+                        <select name="language" id="language">
+                            <option value="Italiano">Italiano</option>
+                            <option value="saab">Saab</option>
+                        </select>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>                    
                 </div>
                 <div class="f-right-container section-flex">
-                    <div class="f-right-content"></div>
-                    <div class="f-right-content"></div>
-                    <div class="f-right-content"></div>
-                    <div class="f-right-content"></div>
+                    <div class="f-right-content">
+                        <ul>
+                            <li>Prodotto</li>
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
+                    <div class="f-right-content">
+                        <ul>
+                            <li>Compagnia</li>
+                            <li>Chi siamo</li>
+                            <li>Lavora con noi</li>
+                            <li>Marchio</li>
+                            <li>Redazuibe</li>
+                            <li>Negozio</li>
+                        </ul>
+                    </div>
+                    <div class="f-right-content">
+                        <ul>
+                            <li>Risorse</li>
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
+                    <div class="f-right-content">
+                        <ul>
+                            <li>Nome</li>
+                            <li>Scarica</li>
+                            <li>Perchè Discord</li>
+                            <li>Nitro</li>
+                            <li>Sicurezza</li>
+                            <li>Assistenza</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
-        <hr>
+        <hr id="footer-separator">
         <!-- Parte bassa del footer -->
         <section class="bottom-footer">
             <div class="footer-container section-flex ">
                 <div class="logo-bottom">
-                    <i class="fa-brands fa-youtube"></i> 
+                    <img src="./img/logo.svg" alt="immagine logo">
                 </div>
-                <button class="button-bottom">Bottone</button>
+                <button class="small-buttons registration-btn">Registrati</button>
             </div>
         </section>
     </footer>
